@@ -19,7 +19,7 @@ const Home = () => {
 
   const generateTaskData = async () => {
     try {
-      const taskData = await axios.get("http://localhost:8082/v1/tasks");
+      const taskData = await axios.get("https://task-management-app-backend-gqyb.onrender.com/v1/tasks");
       setData(taskData.data);
     } catch (er) {
       console.log(
