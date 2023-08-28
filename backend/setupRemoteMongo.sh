@@ -1,0 +1,2 @@
+#mongoimport --uri "mongodb://127.0.0.1:27017/admin" --drop --collection tasks --file mockData/data.json
+mongoimport --uri "mongodb://ac-brazrlu-shard-00-00.wfkzfmx.mongodb.net:27017,ac-brazrlu-shard-00-01.wfkzfmx.mongodb.net:27017,ac-brazrlu-shard-00-02.wfkzfmx.mongodb.net:27017/?replicaSet=atlas-t1awl7-shard-0" --ssl --authenticationDatabase admin --username alapatinaveen18 --password S4GAi8Mr2kFdhisy --drop --collection tasks --file mockData/data.json
